@@ -1,6 +1,6 @@
 package pekan5;
 
-public class tugasfor1 {
+public class TugasFor {
 	public static void main(String[] args) {
 		int a= 10;
 		int b;
