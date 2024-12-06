@@ -77,7 +77,7 @@ public class Aritmatika {
 		frmAritmatika.getContentPane().add(lblNewLabel);
 		
 		JComboBox OPcb = new JComboBox();
-		OPcb.setBounds(138, 58, 30, 22);
+		OPcb.setBounds(127, 65, 66, 20);
 		OPcb.setModel(new DefaultComboBoxModel(new String[] {"Pilih", "+", "-", "/", "*", "%"}));
 		frmAritmatika.getContentPane().add(OPcb);
 		
