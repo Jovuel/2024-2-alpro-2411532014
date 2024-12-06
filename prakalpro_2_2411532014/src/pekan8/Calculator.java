@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class kalkulator {
+public class Calculator {
 
     private JFrame frame;
     private JTextField display;
@@ -18,7 +18,7 @@ public class kalkulator {
     public static void main(String[] args) {
         javax.swing.SwingUtilities.invokeLater(() -> {
             try {
-                kalkulator window = new kalkulator();
+                Calculator window = new Calculator();
                 window.frame.setVisible(true);
             } catch (Exception e) {
                 e.printStackTrace();
@@ -26,12 +26,12 @@ public class kalkulator {
         });
     }
 
-    public kalkulator() {
+    public Calculator() {
         initialize();
     }
 
     private void initialize() {
-        frame = new JFrame("Kalkulator");
+        frame = new JFrame("Calculator");
         frame.setBounds(100, 100, 300, 400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(new BorderLayout());
